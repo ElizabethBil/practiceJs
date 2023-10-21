@@ -29,12 +29,10 @@
 // const totalPrice = TVsum + phone + tablet;
 // console.log(totalPrice);
 
-
 // ЗАДАЧА 4
 // ВИКОРИСТОВУЮЧИ КОНСТРУКЦІЮ IF...ELSE , НАПИШИ КОД, ЯКИЙ БУДЕ ЗАПИТУВАТИ:
 // "СКІЛЬКИ МІСЯЦІВ МАЄ РІК", ЯКЩО КОРИСТУВАЧ ВВОДИТЬ 12 ТО У КОНСОЛІ ПИШЕ ВІРНО, ЯКЩО НЕ ПРАВИЛЬНО КОРИСТУВАЧ ВВІВ, ТОДІ У КОНСОЛІ ПИШЕ
 // "НЕ ЗНАЄТЕ? 12"
-
 
 // const year = Number(prompt("Please type mounts in year"));
 
@@ -46,11 +44,10 @@
 //     alert ("please correct mouts in year");
 // }
 
-
 // ЗАДАЧА 5
 // НАПИШІТЬ ПРОГРАМУ, ЯКА ДОЗВОЛЯТИМЕ ЮЗЕРУ ВВОДИТИ ЧИСЛО І ОПРИДІЛЯТИМЕ ЧИ ЦЕ ПАРНЕ ЧИСЛО , ЧИ НЕ ПАРНЕ.
 
-const number = prompt("Type your number");
+// const number = prompt("Type your number");
 
 // if (number % 2 === 0) {
 //     alert("true")
@@ -58,5 +55,23 @@ const number = prompt("Type your number");
 //     alert("falce")
 // }
 
-const result = number % 2 === 0 ? "true" : "falce"; 
-alert(result);
+// const result = number % 2 === 0 ? "true" : "falce";
+// alert(result);
+
+// ЗАДАЧА 6
+// НАПИШІТЬ ПРОГРАМУ, ДЕ МИ У КОРИСТОВАЧА ПИТАЄМОСЬ МІСЯЦЬ НАРОДЖЕННЯ,
+//     І ПОКАЗУЄМО У ЯКУ ПОРУ РОКУ ВІН НАРОДИВСЯ
+
+// const monthOfBirth = Number(prompt("Please type your month of Birth"));
+
+// if (monthOfBirth === 12 || monthOfBirth === 1 || monthOfBirth === 2) {
+//   console.log("You're borned at the winter");
+// } else if (monthOfBirth >= 3 && monthOfBirth <= 5) {
+//   console.log("You're borned at the spring");
+// } else if (monthOfBirth >= 6 && monthOfBirth <= 8) {
+//   console.log("You're borned at the summer");
+// } else if (monthOfBirth >= 9 && monthOfBirth <= 11) {
+//   console.log("You're borned at the autumn");
+// } else {
+//   console.log("Invalid data");
+// }
