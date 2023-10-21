@@ -94,15 +94,12 @@
 //     : "invalid login or password!";
 // console.log(allCorrect);
 
-
 // ЗАДАЧА 8
 // НАПИШІТЬ ПРОГРАМУ , ЯКА БУДЕ ЗАПИТУВАТИ У КОРИСТУВАЧА ПЕРІОД ПІДПИСКИ НА СЕРВІС ТА ПОКАЗУВАТИМЕ ЦІНУ ПІДПИСКИ(ВИКОРИСТАЙ IF..ELSE, ТА ПЕРЕПИШИ НА SWITCH)
 // ЯКЩО ДЕНЬ - ціна 1.99
 // ЯУЩО НЕДІЛЯ - ціна 5.99
 // ЯКЩО МІСЯЦЬ - ціна 10.99
 // ЯКЩО РІК - ціна 100.99\
-
-
 
 // if (period === "ДЕНЬ") {
 //     console.log("ціна 1.99");
@@ -140,12 +137,25 @@
 // ЗАДАЧА 9
 // НАПИШІТЬ ЦИКЛ FOR ЯКА БУДЕ ВИВОДИТИ У КОНСОЛЬ ЧИСЛА ЗА ЗРОСТАННЯМ ВІД MIN ДО MAX, ПІСЛЯ ТОГО ЧИСЛА КРАТНІ 10
 
-const min = 1;
-const max = 100;
+// const min = 1;
+// const max = 100;
 
-for (let i = min; i <= max; i += 1) {
-  if (i % 10 === 0) {
-console.log(i);
-  }
-continue
+// for (let i = min; i <= max; i += 1) {
+//   if (i % 10 === 0) {
+// console.log(i);
+//   }
+// continue
+// }
+
+// ЗАДАЧА 10
+// ЯКЩО ІМЯ БІЛЬШЕ 7 СИМВОЛІВ, КОНСОЛЬ ВИВОДИТЬ "Wow, you  have a REALLY long name!",
+// ЯКЩО МЕНШЕ 7
+// "Your name isn't very long"
+
+const userName = "Tetiana";
+
+if (userName.length > 7) {
+  console.log("Wow, you  have a REALLY long name!");
+} else {
+  console.log("Your name isn't very long");
 }
