@@ -65,13 +65,13 @@
 // const monthOfBirth = Number(prompt("Please type your month of Birth"));
 
 // if (monthOfBirth === 12 || monthOfBirth === 1 || monthOfBirth === 2) {
-//   console.log("You're borned at the winter");
+//   console.log("You're born in winter");
 // } else if (monthOfBirth >= 3 && monthOfBirth <= 5) {
-//   console.log("You're borned at the spring");
+//   console.log("You're born in spring");
 // } else if (monthOfBirth >= 6 && monthOfBirth <= 8) {
-//   console.log("You're borned at the summer");
+//   console.log("You're born in summer");
 // } else if (monthOfBirth >= 9 && monthOfBirth <= 11) {
-//   console.log("You're borned at the autumn");
+//   console.log("You're born in autumn");
 // } else {
 //   console.log("Invalid data");
 // }
