@@ -111,28 +111,41 @@
 //     }
 // else if (period === "МІСЯЦЬ")  {
 //     console.log("ціна 10.99");
-// }   
+// }
 // else if (period === "РІК")  {
 //     console.log("ціна 100.99");
-// } 
+// }
 // else {
 //     console.log("please correct subsc.");
 // }
 
-const period = prompt ("Please type period subsc.").toUpperCase();
-switch (period) {
-    case "ДЕНЬ":
-    console.log("ціна 1.99");
-    break;
-    case "НЕДІЛЯ":
-    console.log("ціна 5.99");
-    break;
-    case "МІСЯЦЬ":
-    console.log("ціна 10.99");
-    break;
-    case "РІК":
-    console.log("ціна 100.99");
-    break;
-    default: console.log("please correct subsc.");
-    break;
+// const period = prompt ("Please type period subsc.").toUpperCase();
+// switch (period) {
+//     case "ДЕНЬ":
+//     console.log("ціна 1.99");
+//     break;
+//     case "НЕДІЛЯ":
+//     console.log("ціна 5.99");
+//     break;
+//     case "МІСЯЦЬ":
+//     console.log("ціна 10.99");
+//     break;
+//     case "РІК":
+//     console.log("ціна 100.99");
+//     break;
+//     default: console.log("please correct subsc.");
+//     break;
+// }
+
+// ЗАДАЧА 9
+// НАПИШІТЬ ЦИКЛ FOR ЯКА БУДЕ ВИВОДИТИ У КОНСОЛЬ ЧИСЛА ЗА ЗРОСТАННЯМ ВІД MIN ДО MAX, ПІСЛЯ ТОГО ЧИСЛА КРАТНІ 10
+
+const min = 1;
+const max = 100;
+
+for (let i = min; i <= max; i += 1) {
+  if (i % 10 === 0) {
+console.log(i);
+  }
+continue
 }
