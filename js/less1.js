@@ -31,17 +31,32 @@
 
 
 // ЗАДАЧА 4
-// ВИКОРИСТОВУЮЧИ КОНСТРУКЦІЮ IF...ELSE , НАПИШИ КОД, ЯКИЙ БУДЕ ЗАПИТУВАТИ: 
-// "СКІЛЬКИ МІСЯЦІВ МАЄ РІК", ЯКЩО КОРИСТУВАЧ ВВОДИТЬ 12 ТО У КОНСОЛІ ПИШЕ ВІРНО, ЯКЩО НЕ ПРАВИЛЬНО КОРИСТУВАЧ ВВІВ, ТОДІ У КОНСОЛІ ПИШЕ 
+// ВИКОРИСТОВУЮЧИ КОНСТРУКЦІЮ IF...ELSE , НАПИШИ КОД, ЯКИЙ БУДЕ ЗАПИТУВАТИ:
+// "СКІЛЬКИ МІСЯЦІВ МАЄ РІК", ЯКЩО КОРИСТУВАЧ ВВОДИТЬ 12 ТО У КОНСОЛІ ПИШЕ ВІРНО, ЯКЩО НЕ ПРАВИЛЬНО КОРИСТУВАЧ ВВІВ, ТОДІ У КОНСОЛІ ПИШЕ
 // "НЕ ЗНАЄТЕ? 12"
 
 
-const year = Number(prompt("Please type mounts in year"));
+// const year = Number(prompt("Please type mounts in year"));
 
-if (year === 12) {
-    alert ("correct");
-}
+// if (year === 12) {
+//     alert ("correct");
+// }
 
-else {
-    alert ("please correct mouts in year");
-}
+// else {
+//     alert ("please correct mouts in year");
+// }
+
+
+// ЗАДАЧА 5
+// НАПИШІТЬ ПРОГРАМУ, ЯКА ДОЗВОЛЯТИМЕ ЮЗЕРУ ВВОДИТИ ЧИСЛО І ОПРИДІЛЯТИМЕ ЧИ ЦЕ ПАРНЕ ЧИСЛО , ЧИ НЕ ПАРНЕ.
+
+const number = prompt("Type your number");
+
+// if (number % 2 === 0) {
+//     alert("true")
+// } else {
+//     alert("falce")
+// }
+
+const result = number % 2 === 0 ? "true" : "falce"; 
+alert(result);
