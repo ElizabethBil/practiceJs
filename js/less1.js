@@ -23,8 +23,25 @@
 // ЗАДАЧА 3
 // ПОРАХУЙТЕ СУМУ ТОВАРІВ У КОРЗИНІ . ПОТРІБНО ВВЕСТИ СУМУ 3-Х ТОВАРІВ І ПОРАХУВАТИ ЇХ СУМУ
 
-const TVsum = Number(prompt("Please type TV price"));
-const phone = +prompt("Please type phone price");
-const tablet = +prompt("Please type tablet price");
-const totalPrice = TVsum + phone + tablet;
-console.log(totalPrice);
+// const TVsum = Number(prompt("Please type TV price"));
+// const phone = +prompt("Please type phone price");
+// const tablet = +prompt("Please type tablet price");
+// const totalPrice = TVsum + phone + tablet;
+// console.log(totalPrice);
+
+
+// ЗАДАЧА 4
+// ВИКОРИСТОВУЮЧИ КОНСТРУКЦІЮ IF...ELSE , НАПИШИ КОД, ЯКИЙ БУДЕ ЗАПИТУВАТИ: 
+// "СКІЛЬКИ МІСЯЦІВ МАЄ РІК", ЯКЩО КОРИСТУВАЧ ВВОДИТЬ 12 ТО У КОНСОЛІ ПИШЕ ВІРНО, ЯКЩО НЕ ПРАВИЛЬНО КОРИСТУВАЧ ВВІВ, ТОДІ У КОНСОЛІ ПИШЕ 
+// "НЕ ЗНАЄТЕ? 12"
+
+
+const year = Number(prompt("Please type mounts in year"));
+
+if (year === 12) {
+    alert ("correct");
+}
+
+else {
+    alert ("please correct mouts in year");
+}
