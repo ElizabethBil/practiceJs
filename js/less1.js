@@ -75,3 +75,77 @@
 // } else {
 //   console.log("Invalid data");
 // }
+
+// ЗАДАЧА 7
+// НАПИШІТЬ ПРОГРАМУ, ЯКА ПРОВІРЯЄ ЛОГІН І ПАРОЛЬ, І ВИВОДИТЬ ПРИВІТАННЯ - ЯКЩО ВСЕ ДОБРЕ, АБО ВИДАЄ ПОМИЛКУ , ЩО НЕ ВІРНИЙ ЛОГІН
+
+// const userLogIn = prompt("Please type your login");
+// const correctLogIn = "Serhiy";
+// const userPassword = prompt("Please type your password");
+// const correctPassword = "123456";
+// // if (userLogIn === correctLogIn && userPassword === correctPassword) {
+// //   console.log("Hello, Serhiy!");
+// // } else {
+// //   console.log("invalid login or password!");
+// // }
+// const allCorrect =
+//   userLogIn === correctLogIn && userPassword === correctPassword
+//     ? "Hello, Serhiy!"
+//     : "invalid login or password!";
+// console.log(allCorrect);
+
+
+// ЗАДАЧА 8
+// НАПИШІТЬ ПРОГРАМУ , ЯКА БУДЕ ЗАПИТУВАТИ У КОРИСТУВАЧА ПЕРІОД ПІДПИСКИ НА СЕРВІС ТА ПОКАЗУВАТИМЕ ЦІНУ ПІДПИСКИ(ВИКОРИСТАЙ IF..ELSE, ТА ПЕРЕПИШИ НА SWITCH)
+// ЯКЩО ДЕНЬ - ціна 1.99
+// ЯУЩО НЕДІЛЯ - ціна 5.99
+// ЯКЩО МІСЯЦЬ - ціна 10.99
+// ЯКЩО РІК - ціна 100.99\
+
+
+
+// if (period === "ДЕНЬ") {
+//     console.log("ціна 1.99");
+// } else if (period === "НЕДІЛЯ")  {
+// console.log("ціна 5.99");
+//     }
+// else if (period === "МІСЯЦЬ")  {
+//     console.log("ціна 10.99");
+// }
+// else if (period === "РІК")  {
+//     console.log("ціна 100.99");
+// }
+// else {
+//     console.log("please correct subsc.");
+// }
+
+// const period = prompt ("Please type period subsc.").toUpperCase();
+// switch (period) {
+//     case "ДЕНЬ":
+//     console.log("ціна 1.99");
+//     break;
+//     case "НЕДІЛЯ":
+//     console.log("ціна 5.99");
+//     break;
+//     case "МІСЯЦЬ":
+//     console.log("ціна 10.99");
+//     break;
+//     case "РІК":
+//     console.log("ціна 100.99");
+//     break;
+//     default: console.log("please correct subsc.");
+//     break;
+// }
+
+// ЗАДАЧА 9
+// НАПИШІТЬ ЦИКЛ FOR ЯКА БУДЕ ВИВОДИТИ У КОНСОЛЬ ЧИСЛА ЗА ЗРОСТАННЯМ ВІД MIN ДО MAX, ПІСЛЯ ТОГО ЧИСЛА КРАТНІ 10
+
+const min = 1;
+const max = 100;
+
+for (let i = min; i <= max; i += 1) {
+  if (i % 10 === 0) {
+console.log(i);
+  }
+continue
+}
