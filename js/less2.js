@@ -63,11 +63,28 @@
 // }
 
 //  Провірте , чи являється рядок полідромом
-const str = "ротатор"; //true
-const newString = "Hello"; //false
+// const str = "ротатор"; //true
+// const newString = "Hello"; //false
 
-const newStr = str.split("").reverse().join("");
-console.log(str === newStr);
+// const newStr = str.split("").reverse().join("");
+// console.log(str === newStr);
 
-const newStr2 = newString.split("").reverse().join("");
-console.log(newStr2 === newString);
+// const newStr2 = newString.split("").reverse().join("");
+// console.log(newStr2 === newString);
+
+// ЗАДАЧА 5
+// Напишіть ф-цію calculateAverage() яка приймає довільну кількість аргументів і повертає їх середнє значення .Всі аргументи будуть тільки числовими
+
+console.log(calculateAverage(1, 2, 3, 4)); // 2.5
+console.log(calculateAverage(14, 8, 2)); // 8
+console.log(calculateAverage(27, 43, 2, 8, 36));// 23.2
+
+function calculateAverage() {
+    console.log(arguments)
+    const numbers = Array.from(arguments);
+    let total = 0;
+    for (let number of numbers) {
+        total += number;
+    }
+    return (total / numbers.length).toFixed(1);
+}
