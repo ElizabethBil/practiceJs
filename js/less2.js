@@ -93,9 +93,23 @@
 // Напишіть ф-цію greet(name) , яка при виклику буде получати імя (як приклад , "Василь"), і логінувати рядок "Привіт, <імя>".
 // У випадку , відсутнього
 // відсутнього значення, виводе аргумент "Привіт , гість"
-console.log(greet("Василь")); //Привіт Василь
-console.log(greet()); //Привіт гість
+// console.log(greet("Василь")); //Привіт Василь
+// console.log(greet()); //Привіт гість
 
-function greet(name = "гість") {
-  return `Привіт, ${name}`;
-}
+// function greet(name = "гість") {
+//   return `Привіт, ${name}`;
+// }
+
+// Напишіть ф-цію capitalize , яка буде приймати рядок і буде повертати новий рядок , де кожне слово буде з великої букви
+// console.log(capitalize("the quick brown fox")); // 'The Quick Brown Fox '
+// function capitalize(string) {
+//   let newStr = string.split(" ");
+//   let newString = [];
+//   for (let word of newStr) {
+//     let newWord = word[0].toUpperCase();
+//     let newReset = word.slice(1);
+//     let finalString = `${newWord}${newReset}`;
+//     newString.push(finalString);
+//   }
+//   return newString.join(" ");
+// }
