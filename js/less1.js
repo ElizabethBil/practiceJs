@@ -152,10 +152,10 @@
 // ЯКЩО МЕНШЕ 7
 // "Your name isn't very long"
 
-const userName = "Tetiana";
+// const userName = "Tetiana";
 
-if (userName.length > 7) {
-  console.log("Wow, you  have a REALLY long name!");
-} else {
-  console.log("Your name isn't very long");
-}
+// if (userName.length > 7) {
+//   console.log("Wow, you  have a REALLY long name!");
+// } else {
+//   console.log("Your name isn't very long");
+// }
