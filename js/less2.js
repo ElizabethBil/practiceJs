@@ -29,3 +29,16 @@
 
 // styles.unshift("Рэп", "Регги");
 // console.log(styles);
+
+
+const users = ["Mango", "Poly", "Ajax"];
+
+function logItem(array) {
+    for (let i = 0; i <= users.length; i++) {
+        console.log("index", i);
+        console.log("value", users[i])
+        console.log(i, users[i])
+    }
+}
+
+logItem()
