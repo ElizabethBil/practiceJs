@@ -135,3 +135,13 @@ const scientists = [
 
 // const averageLifeLength = lifeLength / scientists.length;
 // console.log(averageLifeLength);
+
+// 3) відсортувати по алфавіту
+
+// const sort = [...scientists].sort((a, b) => (a.name[0] > b.name[0]) ? 1 : -1);
+// console.log(sort)
+
+// 4)відсортувати по кількості прожитих років;
+
+const sort = [...scientists].sort((a, b) => (a.dead - a.born) - (b.dead - b.born));
+console.log(sort)
