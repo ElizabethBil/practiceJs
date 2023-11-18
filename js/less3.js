@@ -21,15 +21,13 @@
 // showProduct(product) - колбек приймає обєкт продукта і логінує його в консоль;
 // makeProduct("Холодильник", 10000, logger);
 
-function makeProduct(name, price, callback) {
-    const products = { name, price, id: Date.now() }
-    callback(products)
-}
+// function makeProduct(name, price, callback) {
+//     const products = { name, price, id: Date.now() }
+//     callback(products)
+// }
 
-function showProduct(products) {
-    console.log(products)
-}
+// function showProduct(products) {
+//     console.log(products)
+// }
 
 // makeProduct("Холодильник", 10000, showProduct);
-
-makeProduct("Телевізор", 10000, showProduct);
