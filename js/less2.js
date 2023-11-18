@@ -149,4 +149,4 @@ updateCourse("Express", "NestJS"); // ['HTML', 'CSS', 'JavaScript', 'PostgreSQL'
 //   courses.splice(selectedCourse, 1, newName);
 // }
 // console.log(courses);
->>>>>>> 9e064cac616164b91832c5778445785de38d0181
+
